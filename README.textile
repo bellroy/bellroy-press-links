@@ -1,0 +1,22 @@
+h1. Bellroy Press Links
+
+This repository contains a list of links used by nRelate (and possibly other advertising services) which are delivered via an RSS feed.
+
+The services are given the raw file URL to rss.xml.
+
+h2. Getting started
+
+* check out the repository from Git
+* Run bundle install
+
+h2. Adding links
+
+* edit the rss.xml.haml file, adding the links you want in a new item block
+* Run haml against the rss.xml file (haml rss.xml.haml rss.xml)
+* Push the changed files to Github
+
+h2. Todo
+
+* Use the Outbrain links as definitive list of links
+* Use git hooks to run the haml utility when pushed
+* check if I can use separate channels for different advertisers
